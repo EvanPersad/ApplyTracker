@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    container_name: applytrack-db
+    environment:
+      POSTGRES_DB: applytrack
+      POSTGRES_USER: applytrack
+      POSTGRES_PASSWORD: devpassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
