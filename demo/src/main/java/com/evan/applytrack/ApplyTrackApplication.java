@@ -1,13 +1,14 @@
-package com.example.demo;
+package com.evan.applytrack;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class ApplyTrackApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(ApplyTrackApplication.class, args);
 	}
 
 }
+
