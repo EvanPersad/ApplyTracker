@@ -12,5 +12,5 @@ CREATE TABLE company (
   website TEXT,
   location_city TEXT,
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-  UNIQUE (name, website)
+  UNIQUE (name_of_company, website)
 );
